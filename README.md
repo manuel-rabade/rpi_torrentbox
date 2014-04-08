@@ -11,9 +11,9 @@ Setup
 
 Steps to reproduce this example:
 
-### Setup 
+### Install 
 
-Install ArchLinux ARM on your Raspberry Pi SD card.
+Write ArchLinux ARM on your Raspberry Pi SD card and boot the system.
 
 Update the system:
 
@@ -52,7 +52,7 @@ Reboot to apply changes:
 
     # reboot
 
-4.  External USB hard drive
+### External USB hard drive
 
 Install parted:
 
@@ -101,13 +101,13 @@ Create mountpoint:
 
     # mkdir /usb
 
-Modify `/etc/fstab'
+Modify `/etc/fstab`
 
 Reboot to apply changes:
 
     # reboot
 
-5.  BitTorrent
+### BitTorrent
 
 Install Deluge:
 
