@@ -171,6 +171,10 @@ Create shared directories:
     # chown lan:users /mnt/usb/{docs,files}
     # chmod 775 /mnt/usb/{docs,files}
 
+Allow user to modify torrents directories:
+
+    # chmod 775 /mnt/usb/torrents/{complete,incoming}
+
 Enable SAMBA:
 
     # systemctl enable smbd
