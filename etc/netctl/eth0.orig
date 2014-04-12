@@ -1,0 +1,10 @@
+Description='A basic dhcp ethernet connection'
+Interface=eth0
+Connection=ethernet
+IP=dhcp
+ExecUpPost='/usr/bin/ntpd -gq || true'
+
+## for DHCPv6
+#IP6=dhcp
+## for IPv6 autoconfiguration
+#IP6=stateless
