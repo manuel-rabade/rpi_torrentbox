@@ -1,10 +1,9 @@
 Raspberry Pi Torrentbox
 =======================
 
-This is a Raspberry Pi Torrentbox and NAS server example.
-
-The Raspberry Pi is a model B 512 MB that runs ArchLinux ARM
-2014.03 with a 2 TB USB Hard Disk Drive.
+This is a Raspberry Pi Torrentbox and NAS server example. The Raspberry
+Pi is a model B 512 MB that runs ArchLinux ARM 2014.03 with a 2 TB USB
+Hard Disk Drive.
 
 Setup
 -----
@@ -31,7 +30,7 @@ Set hostname:
 
 Modify `/etc/netctl/eth0`
 
-Enable netctl profile:
+Enable network profile:
 
     # systemctl disable netctl-ifplugd@eth0.service
     # netctl enable eth0
@@ -107,7 +106,7 @@ Create mountpoint:
 
 Modify `/etc/fstab`
 
-Mount all filesystems in fstab:
+Mount all filesystems:
 
     # mount -a
 
