@@ -185,6 +185,11 @@ Start SAMBA:
     # systemctl start smbd
     # systemctl start nmbd
 
+Author
+------
+
+Manuel Rábade <[manuel@rabade.net](mailto:manuel@rabade.net)>
+
 License
 -------
 
